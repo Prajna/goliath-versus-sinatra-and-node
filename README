@@ -12,3 +12,5 @@ But pure eventmachine: around 7000 req/s
 
 hooray!
 
+erlang: around 7000 req/s
+
