@@ -6,9 +6,11 @@ sinatra + thin: around 1400 req/s
 goliath: around 1800 req/s
 node: around 6000 req/s
 
-WHAT A SHAME!
+WHAT A SHAME! But actually I don't whether node.js is born with http parser.
+If yes, then it really rocks.
+If no, then eventmachine-http-server(it has no http parser) beats it.
 
-But pure eventmachine: around 7000 req/s
+pure eventmachine: around 7000 req/s
 
 hooray!
 
