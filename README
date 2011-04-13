@@ -7,3 +7,8 @@ goliath: around 1800 req/s
 node: around 6000 req/s
 
 WHAT A SHAME!
+
+But pure eventmachine: around 7000 req/s
+
+hooray!
+
