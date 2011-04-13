@@ -1,0 +1,9 @@
+On my 2011 MacBook Pro,
+
+ab -n 10000 -c 10 http://127.0.0.1:[4567|9000|8124]/
+
+sinatra + thin: around 1400 req/s
+goliath: around 1800 req/s
+node: around 6000 req/s
+
+WHAT A SHAME!
